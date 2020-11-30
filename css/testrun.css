@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+.wrapper {
+    margin: 0 auto 0 60px;
+    width: 1000px;
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+}
+ul {
+    margin-left: 0px;
+}
+ul li {
+ list-style: none;
+ display: inline-block;
+ line-height: 100px;
+
+
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial;
+    color: #1e1e1e;
+    padding: 0 20px;
+}
+ul li a:hover {
+    color: rgb(52, 104, 202);
+}
+.img.marinebiology {
+    width: 800px;
+    height: 200px;
+    background-image: url(IMAGE.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img.logo {
+    display: inline-block;
+    margin-left: 0%;
+    
+}
+
+.centered.image {
+    text-align: center;
+}
+/*ANIMALS*/
+.animals-links div {
+    float: left;
+    width: 240px;
+    height: 240px;
+    background-color: #e3e3e3;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.image.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
